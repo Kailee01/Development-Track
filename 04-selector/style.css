@@ -1,0 +1,32 @@
+.right {
+    text-align: right;
+  }
+  
+  #two {
+    color: red;
+  }
+  
+.small {
+    font-size: 7pt;
+}
+  
+  
+.c2 {
+        text-align:justify;
+      
+    }
+.c1 {
+  text-align: center;
+}
+
+
+li li{
+  height:0;
+  visibility: hidden;
+}
+
+
+li:hover >*>li{
+  height: auto;
+  visibility: visible;
+} 

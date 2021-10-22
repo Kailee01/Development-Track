@@ -1,0 +1,31 @@
+#outer{
+    color:red;
+    text-align: center;
+}
+#btn_id{
+    background-color: rgb(0, 204, 255);
+
+    width: 10%;
+    height: 45px;
+
+    padding: 14px 28px;
+    margin: 14px 221px;  /* far from the outside box*/
+     color: white;
+
+     box-shadow:5px 5px 10px black;  
+     /* left,top,bluur(color) */
+
+    border-radius: 7px;
+}
+#btn_id:hover{
+    /* background-color:rgb(177, 129, 112); */
+    transform: translateX(-10px) translateY(-10px);
+    box-shadow: 15px 15px 10px black;
+}
+#btn_id:active{
+    transform: translateX(3px) translateY(3px);
+    box-shadow: 2px 2px 2px black;
+    transition: 0.1s;
+    color: green;
+    background-color: red;
+}

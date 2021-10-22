@@ -1,0 +1,11 @@
+div{
+
+    height: 50px;
+    width: 50px;
+    margin:50px;
+    background-color: blue;
+}
+
+div:nth-child(2n+1){
+    background-color: aqua;
+}

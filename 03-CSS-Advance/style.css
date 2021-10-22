@@ -1,5 +1,5 @@
 div{
-
+    font: larger;
     height: 50px;
     width: 50px;
     margin:50px;
@@ -9,3 +9,5 @@ div{
 div:nth-child(2n+1){
     background-color: aqua;
 }
+
+

@@ -1,13 +1,70 @@
 div{
-    font: larger;
+    font:bold;
     height: 50px;
     width: 50px;
     margin:50px;
     background-color: blue;
+    padding:5px;
+    font-size: 30pt;
+    transition: 2s;    
 }
 
 div:nth-child(2n+1){
     background-color: aqua;
+
+}
+/* Transform lets rotate, scale, skew, or translate
+ an element.
+  It modifies the coordinate space of the CSS visual 
+  formatting model. */
+
+/* div:nth-child(2n){
+    transform: rotate(45deg);
+} */
+div:nth-child(2n){
+    transform: rotate(2160deg);
 }
 
+
+
+ div:nth-child(3){
+     transform: rotateY(45deg);
+ }
+ div:nth-child(1){
+     transform: rotateX(45deg);
+ }
+ div:nth-child(4){
+     transform: rotateX(45deg);
+ }
+ div:nth-child(5){
+     transform: scale(0.67);
+}
+
+ div:nth-child(6){
+     transform: scaleX(0.5);
+}
+
+div:nth-child(7){
+    transform: skew(35deg);
+}
+div:nth-child(8){
+    transform: skewY(30deg);
+}
+div:nth-child(9):hover{
+    transform: rotateZ(45deg);
+}
+div:nth-child(10):hover {
+    transform: translateX(1070px);
+  }
+
+  div:nth-child(11):hover {
+    margin-top: 130px;
+  }
+  div:nth-child(12):hover {
+    padding-top: 130px;
+    padding-right: 130px;
+  }
+  div:nth-child(13):hover {
+    transform: rotateZ(360deg) translateX(100px);
+  }
 

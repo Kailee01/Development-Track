@@ -48,7 +48,7 @@ div:nth-child(7){
     transform: skew(35deg);
 }
 div:nth-child(8){
-    transform: skewY(30deg);
+    transform: skewY(30deg);    
 }
 div:nth-child(9):hover{
     transform: rotateZ(45deg);
@@ -67,4 +67,40 @@ div:nth-child(10):hover {
   div:nth-child(13):hover {
     transform: rotateZ(360deg) translateX(100px);
   }
+
+
+
+  div:nth-child(9) {
+    animation-name: wheel;
+    animation-duration: 3s;
+    animation-iteration-count:infinite;
+  }
+  
+  @keyframes wheel {
+    0% {
+    }
+    25% {
+      transform: scale(2) rotateZ(180deg);
+    }
+    50% {
+      transform: translateX(100px) rotateZ(360deg);
+    }
+    75% {
+      transform: scale(0.5) rotateZ(180deg);
+    }
+    100% {
+        transform: skewX(30deg);
+    }
+
+  }
+
+
+
+
+
+  /*
+     git add -A
+     git commit -m "CSS Transform Added"
+     git push origin main
+  */
 

@@ -119,6 +119,8 @@ animation-direction: alternate;
 
 }
 
+/* Animation is used to move the box with @keyframes in the time wise*/
+
 
 @keyframes  carRunning{
 from{

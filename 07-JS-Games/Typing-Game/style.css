@@ -1,0 +1,39 @@
+body{
+    background-color: #454545;
+}
+
+h1{
+    margin-left: 38%;
+}
+
+#input{
+    display: inline-block;
+    border: 2px solid black;
+    width: 180px;
+    height: 40px;
+    margin-left: 39%;
+    margin-top: 64px;
+}
+#btn{
+    display: inline-block;
+    border: 2px solid black;
+    width: 80px;
+    height: 40px;
+    margin-left: 3%;
+    margin-top: 10%;
+    background-color: blue;
+    box-shadow: 5px 5px 6px black;
+    cursor:pointer;
+    border-radius: 9px;
+    color: white;
+    font-family: 'Abril Fatface', cursive;
+}
+#btn:hover{
+    transform:translateX(-4px) translateY(-4px);
+}
+
+#btn:active{
+    background-color: green;
+
+}
+

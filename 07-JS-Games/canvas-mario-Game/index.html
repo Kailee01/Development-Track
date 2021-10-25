@@ -6,8 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <script async defer src="script.js"></script>
+  <!-- if we simply add src=script then first script is executed and then body will be rendered 
+    on the page  wile in case of async defer exectued after body   -->
 </head>
 <body>
+  <h1>checking asynch defer </h1>
   <canvas style="background-color: aqua;" height="400" width="800" id="gamebox"></canvas>
 </body>
 </html>

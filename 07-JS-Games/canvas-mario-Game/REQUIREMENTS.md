@@ -2,6 +2,7 @@
 
 ## Game Features (required)
 
+
 1. 1 player (blue box)
 2. 1 enemy moving up and down (red box)
 3. press ⬅️➡️ button on keyboard to move player [hint: add event listener for keydown and keyup]

@@ -8,9 +8,50 @@
   <script async defer src="script.js"></script>
   <!-- if we simply add src=script then first script is executed and then body will be rendered 
     on the page  wile in case of async defer exectued after body   -->
+    <style>
+      span{
+          margin-left: 310px;
+          font-size: 200%;
+      }
+      ul{
+        color: black;
+        font: bold;
+        margin-left: 130px;
+        font-size: 100%;
+font-family: 'Rampart One', cursive;
+
+      }
+    </style>
 </head>
 <body>
-  <h1>checking asynch defer </h1>
-  <canvas style="background-color: aqua;" height="400" width="800" id="gamebox"></canvas>
+
+  <h1>Lets Play!!</h1>
+  <p >
+    <ul>
+      <li>
+        Use ⬅️ ➡️ ⬆️ ⬇️ Arrow Key to move player. 
+      </li>
+      <li>
+        After Reaching To Queen Level will Increase.
+      </li>
+      <li>
+        If You Collide With Enemy you will loose Game.
+      </li>
+
+      
+    </ul>
+
+    <span id="score_id">Score = 0</span>
+  </p>
+  <audio id="WonGame" src="media/2pbe8a4-huge-win-glyxdcox_hIbuqirM.mp3"></audio>
+  <audio id="lostGame" src="media/PXSQ6QB-vibrant-game-life-lost-1.mp3"></audio>
+<img id="enemy" src="media/enemy1.png" height="70px" width="60px" hidden>
+
+<img id="player" src="media/player.png" height="50px" width="40px" hidden>
+<img id="goal" src="media/princes1.jpg" height="50px" width="40px" hidden>
+
+  <canvas style="background-color: aqua;" height="400" width="800" id="gamebox">
+  </canvas>
+
 </body>
 </html>

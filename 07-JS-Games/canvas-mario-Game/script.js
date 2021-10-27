@@ -217,8 +217,8 @@ function keyPress(event){
     }
 }
 
-  if(event.keyCode=='38'){
-  // if(keyName=='ArrowUp'){
+//   if(event.keyCode=='38'){ // both is same 220 and 221 line
+  if(keyName=='ArrowUp'){
     moveUp(player);
   }
   if(keyName=='ArrowDown'){
